@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container button">
+        <input type="checkbox" name="btn-toggle" id="btn-toggle">
+        <label class="analogic-btn" for="btn-toggle">Analógico</label>
+        <label class="digital-btn" for="btn-toggle">Digital</label>
+    </div>
+
+    <div class="container">
+        <input type="checkbox" name="btn" id="btn">
+        <label class="moon" for="btn" title="Night"><img src="images/moon-icon.png"></label>
+        <label class="sun" for="btn" title="Light"><img src="images/sun-icon.png"></label>
+    </div>
+
+    <div class="clock analogic">
+        <div class="pointer hour" data-hour-hand></div>
+        <div class="pointer minute" data-minute-hand></div>
+        <div class="pointer second" data-second-hand></div>
+
+        <div class="number n1">
+            <p>1</p>
+        </div>
+        <div class="number n2">
+            <p>2</p>
+        </div>
+        <div class="number n3">
+            <p>3</p>
+        </div>
+        <div class="number n4">
+            <p>4</p>
+        </div>
+        <div class="number n5">
+            <p>5</p>
+        </div>
+        <div class="number n6">
+            <p>6</p>
+        </div>
+        <div class="number n7">
+            <p>7</p>
+        </div>
+        <div class="number n8">
+            <p>8</p>
+        </div>
+        <div class="number n9">
+            <p>9</p>
+        </div>
+        <div class="number n10">
+            <p>10</p>
+        </div>
+        <div class="number n11">
+            <p>11</p>
+        </div>
+        <div class="number n12">
+            <p>12</p>
+        </div>
+    </div>
+
+    <div class="clock digital">
+        <div>
+            <div class="hour" data-hour-digits></div>
+            <div>:</div>
+            <div class="minute" data-minute-digits></div>
+            <div>:</div>
+            <div class="second" data-second-digits></div>
+        </div>
+    </div>
+</body>
+
+</html>
